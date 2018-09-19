@@ -2,9 +2,9 @@ import numpy as np
 import pandas as pd
 
 # Enter local paths to CSV files below
-books_df = pd.read_csv("/Users/alexandermartinez/Desktop/Git/ML-Interview-test/data/Books.csv", encoding = "ISO-8859-1")
-events_df = pd.read_csv("/Users/alexandermartinez/Desktop/Git/ML-Interview-test/data/UserEvents.csv", encoding = "ISO-8859-1")
-users_df = pd.read_csv("/Users/alexandermartinez/Desktop/Git/ML-Interview-test/data/Users.csv", encoding = "ISO-8859-1")
+books_df = pd.read_csv("data/Books.csv", encoding = "ISO-8859-1")
+events_df = pd.read_csv("data/UserEvents.csv", encoding = "ISO-8859-1")
+users_df = pd.read_csv("data/Users.csv", encoding = "ISO-8859-1")
 
 def clean_users():
     # Replace missing user ids with values from 'Unnamed: 0' since they are integer versions of user ids
