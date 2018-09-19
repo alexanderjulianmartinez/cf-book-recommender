@@ -1,0 +1,11 @@
+datetime
+sh
+matplotlib
+seaborn
+scipy
+pandas
+numpy
+tensorflow
+scikit-learn
+ipywidgets
+IPython
